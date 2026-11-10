@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>LUXURY — Каталог премиальных автомобилей</title>
+<title>MODERN ART — Каталог современных картин</title>
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body { font-family: 'Segoe UI', Arial, sans-serif; background: #0d0d0d; color: #f0f0f0; }
@@ -20,7 +20,7 @@
   .catalog { max-width: 1200px; margin: 40px auto; padding: 0 20px; display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 30px; }
   .car-card { background: #161616; border: 1px solid #2a2a2a; border-radius: 12px; overflow: hidden; transition: transform 0.3s, border-color 0.3s; }
   .car-card:hover { transform: translateY(-6px); border-color: #c9a227; }
-  .car-card img { width: 100%; height: 200px; object-fit: cover; display: block; }
+  .car-card img { width: 100%; height: 250px; object-fit: cover; display: block; } /* Увеличил высоту для картин */
   .car-info { padding: 20px; }
   .car-info h2 { font-size: 1.3em; margin-bottom: 6px; color: #fff; }
   .car-info .brand { color: #c9a227; font-size: 0.85em; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 10px; }
@@ -33,78 +33,58 @@
 <body>
 
 <nav>
-  <a href="index.html" class="active">Автомобили</a>
-  <a href="villas.html">Виллы</a>
-  <a href="yachts.html">Яхты</a>
+  <a href="index.html" class="active">Абстракции</a>
+  <a href="villas.html">Портреты</a>
+  <a href="yachts.html">Пейзажи</a>
 </nav>
 
 <header>
-  <h1>Luxury Cars</h1>
-  <p>Каталог премиальных автомобилей</p>
+  <h1>Modern Art</h1>
+  <p>Каталог современных картин — Абстракции</p>
 </header>
 
 <div class="catalog">
   <div class="car-card">
-    <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600" alt="Porsche 911">
+    <img src="https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=600" alt="Абстракция">
     <div class="car-info">
-      <p class="brand">Porsche</p>
-      <h2>911 Turbo S</h2>
-      <p class="specs">3.8 л • 650 л.с. • 0–100 за 2.7 с</p>
-      <p class="price">24 500 000 ₽</p>
+      <p class="brand">Абстрактный экспрессионизм</p>
+      <h2>Цветовой взрыв</h2>
+      <p class="specs">Холст, масло • 120х100 см • 2023 г.</p>
+      <p class="price">450 000 ₽</p>
     </div>
   </div>
 
   <div class="car-card">
-    <img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?w=600" alt="BMW M5">
+    <img src="https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=600" alt="Абстракция">
     <div class="car-info">
-      <p class="brand">BMW</p>
-      <h2>M5 Competition</h2>
-      <p class="specs">4.4 л V8 • 625 л.с. • 0–100 за 3.3 с</p>
-      <p class="price">14 900 000 ₽</p>
+      <p class="brand">Современный минимализм</p>
+      <h2>Геометрия форм</h2>
+      <p class="specs">Холст, акрил • 80х80 см • 2024 г.</p>
+      <p class="price">280 000 ₽</p>
     </div>
   </div>
 
   <div class="car-card">
-    <img src="https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=600" alt="Mercedes">
+    <img src="https://images.unsplash.com/photo-1550684848-fac1c5b4e853?w=600" alt="Абстракция">
     <div class="car-info">
-      <p class="brand">Mercedes-Benz</p>
-      <h2>AMG GT 63 S</h2>
-      <p class="specs">4.0 л V8 • 639 л.с. • 0–100 за 3.2 с</p>
-      <p class="price">18 700 000 ₽</p>
+      <p class="brand">Неоэкспрессионизм</p>
+      <h2>Текстура ночи</h2>
+      <p class="specs">Холст, смешанная техника • 150х120 см • 2022 г.</p>
+      <p class="price">720 000 ₽</p>
     </div>
   </div>
-
+  
   <div class="car-card">
-    <img src="https://images.unsplash.com/photo-1592198084033-aade902d1aae?w=600" alt="Lamborghini">
+    <img src="https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=600" alt="Абстракция">
     <div class="car-info">
-      <p class="brand">Lamborghini</p>
-      <h2>Huracán EVO</h2>
-      <p class="specs">5.2 л V10 • 640 л.с. • 0–100 за 2.9 с</p>
-      <p class="price">32 000 000 ₽</p>
-    </div>
-  </div>
-
-  <div class="car-card">
-    <img src="https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=600" alt="Ferrari">
-    <div class="car-info">
-      <p class="brand">Ferrari</p>
-      <h2>F8 Tributo</h2>
-      <p class="specs">3.9 л V8 • 720 л.с. • 0–100 за 2.9 с</p>
-      <p class="price">35 500 000 ₽</p>
-    </div>
-  </div>
-
-  <div class="car-card">
-    <img src="https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=600" alt="Rolls-Royce">
-    <div class="car-info">
-      <p class="brand">Rolls-Royce</p>
-      <h2>Ghost</h2>
-      <p class="specs">6.75 л V12 • 571 л.с. • Максимальный комфорт</p>
-      <p class="price">48 000 000 ₽</p>
+      <p class="brand">Живопись действия</p>
+      <h2>Динамика цвета</h2>
+      <p class="specs">Холст, масло • 100х100 см • 2023 г.</p>
+      <p class="price">390 000 ₽</p>
     </div>
   </div>
 </div>
 
-<footer>© 2026 Luxury — учебный проект. Цены условные.</footer>
+<footer>© 2026 Modern Art — учебный проект. Цены условные.</footer>
 </body>
 </html>
